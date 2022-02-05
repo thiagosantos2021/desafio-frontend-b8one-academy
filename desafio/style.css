@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: auto;
+    height: 99vh;
+}
+
+#divBusca {
+    display: flex;
+    flex-direction: row;
+    border-radius: 2px;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+
+#txtBusca {
+    background-color: transparent;
+    padding-left: 10px;
+    font-style: normal;
+    font-size: 15px;
+    border: none;
+    width: 300px;
+    height: 30px;
+}
+
+#tBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
+    margin-top: 5px;
+}
+
+#botaoBusca {
+    width: 70px;
+    border: none;
+    float: right;
+    margin-top: 5px;
+    height: 32px;
+}
+
+#busca img {
+    float: left;
+    margin-top: 5px;
+}
+
+.bg-red {
+    background-color: rgb(230, 132, 132);
+}
+
+.bg-gray {
+    background-color: rgb(231, 225, 225);
+}
+
+.bg-orange {
+    background-color: rgb(255, 153, 0);
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.font {
+    font-size: 12px;
+}
